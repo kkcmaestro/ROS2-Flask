@@ -1,0 +1,8 @@
+source;share/Ubox/hook/cmake_prefix_path.ps1
+source;share/Ubox/hook/cmake_prefix_path.dsv
+source;share/Ubox/hook/cmake_prefix_path.sh
+source;share/Ubox/local_setup.bash
+source;share/Ubox/local_setup.dsv
+source;share/Ubox/local_setup.ps1
+source;share/Ubox/local_setup.sh
+source;share/Ubox/local_setup.zsh

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fa33957ec2c364429673.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Ubox",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ubox_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ubox_uninstall-605c20e136c1186ebddd.json",
+					"name" : "Ubox_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_exe-dac7fbedd86fc5abf871.json",
+					"name" : "cpp_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-538f7c97ec36aea6e113.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velocity_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velocity_publisher-5aab283e909a50b4a953.json",
+					"name" : "velocity_publisher",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kkcmaestro/ros2_wsU/build/Ubox",
+		"source" : "/home/kkcmaestro/ros2_wsU/src/Ubox"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

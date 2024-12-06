@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4
+[0.090s] [ 25%] [32m[1mLinking CXX executable velocity_publisher[0m
+[0.098s] [ 75%] Built target cpp_exe
+[0.215s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.216s] (.text+0x1b): undefined reference to `main'
+[0.219s] collect2: error: ld returned 1 exit status
+[0.221s] gmake[2]: *** [CMakeFiles/velocity_publisher.dir/build.make:178: velocity_publisher] Error 1
+[0.221s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/velocity_publisher.dir/all] Error 2
+[0.222s] gmake: *** [Makefile:146: all] Error 2
+[0.225s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4

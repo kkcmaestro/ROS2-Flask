@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4
+[0.184s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/ScriptARos.cpp.o[0m
+[0.238s] [100%] [32m[1mLinking CXX executable cpp_exe[0m
+[1.108s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.108s] (.text+0x1b): undefined reference to `main'
+[1.135s] collect2: error: ld returned 1 exit status
+[1.138s] gmake[2]: *** [CMakeFiles/cpp_exe.dir/build.make:163: cpp_exe] Error 1
+[1.138s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_exe.dir/all] Error 2
+[1.138s] gmake: *** [Makefile:146: all] Error 2
+[1.141s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4

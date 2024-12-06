@@ -1,0 +1,27 @@
+[0.017s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4
+[0.099s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/ScriptARos.cpp.o[0m
+[0.108s] [ 75%] Built target velocity_publisher
+[11.730s] [100%] [32m[1mLinking CXX executable cpp_exe[0m
+[12.197s] [100%] Built target cpp_exe
+[12.214s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4
+[12.227s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kkcmaestro/ros2_wsU/build/Ubox
+[12.239s] -- Install configuration: ""
+[12.239s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/lib/Ubox/cpp_exe
+[12.246s] -- Set non-toolchain portion of runtime path of "/home/kkcmaestro/ros2_wsU/install/Ubox/lib/Ubox/cpp_exe" to ""
+[12.246s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/lib/Ubox/velocity_publisher
+[12.247s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/ament_index/resource_index/package_run_dependencies/Ubox
+[12.247s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/ament_index/resource_index/parent_prefix_path/Ubox
+[12.248s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/ament_prefix_path.sh
+[12.248s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/ament_prefix_path.dsv
+[12.248s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/path.sh
+[12.248s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/path.dsv
+[12.248s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.bash
+[12.248s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.sh
+[12.249s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.zsh
+[12.249s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.dsv
+[12.249s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/package.dsv
+[12.249s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/ament_index/resource_index/packages/Ubox
+[12.249s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/cmake/UboxConfig.cmake
+[12.249s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/cmake/UboxConfig-version.cmake
+[12.249s] -- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/package.xml
+[12.252s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kkcmaestro/ros2_wsU/build/Ubox

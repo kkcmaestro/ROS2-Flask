@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (Ubox) JobQueued: {'identifier': 'Ubox', 'dependencies': OrderedDict()}
+[0.000653] (Ubox) JobStarted: {'identifier': 'Ubox'}
+[0.014898] (Ubox) JobProgress: {'identifier': 'Ubox', 'progress': 'cmake'}
+[0.015811] (Ubox) JobProgress: {'identifier': 'Ubox', 'progress': 'build'}
+[0.016807] (Ubox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kkcmaestro/ros2_wsU/build/Ubox', '--', '-j4', '-l4'], 'cwd': '/home/kkcmaestro/ros2_wsU/build/Ubox', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kkcmaestro', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kkcmaestro', 'OLDPWD': '/home/kkcmaestro', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4300', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kkcmaestro/ros2_wsU/install:/home/kkcmaestro/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kkcmaestro', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kkcmaestro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kkcmaestro-HP-Pavilion-Notebook:@/tmp/.ICE-unix/3947,unix/kkcmaestro-HP-Pavilion-Notebook:/tmp/.ICE-unix/3947', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/35940de4_8223_4a02_b284_7c0bb9e375cf', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.1015', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kkcmaestro/ros2_wsU/install/Ubox:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/home/kkcmaestro/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kkcmaestro/ros2_wsU/build/Ubox', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/kkcmaestro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kkcmaestro/ros2_ws/install/my_robot_controller2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kkcmaestro/ros2_wsU/install/Ubox:/home/kkcmaestro/ros2_ws/install/my_robot_controller:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy'}), 'shell': False}
+[0.099319] (-) TimerEvent: {}
+[0.108639] (Ubox) StdoutLine: {'line': b'[ 50%] Built target cpp_exe\n'}
+[0.116697] (Ubox) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o\x1b[0m\n'}
+[0.199467] (-) TimerEvent: {}
+[0.299781] (-) TimerEvent: {}
+[0.400087] (-) TimerEvent: {}
+[0.500395] (-) TimerEvent: {}
+[0.600705] (-) TimerEvent: {}
+[0.701001] (-) TimerEvent: {}
+[0.801350] (-) TimerEvent: {}
+[0.901687] (-) TimerEvent: {}
+[1.002024] (-) TimerEvent: {}
+[1.102325] (-) TimerEvent: {}
+[1.202643] (-) TimerEvent: {}
+[1.303027] (-) TimerEvent: {}
+[1.403373] (-) TimerEvent: {}
+[1.503686] (-) TimerEvent: {}
+[1.604009] (-) TimerEvent: {}
+[1.704315] (-) TimerEvent: {}
+[1.804656] (-) TimerEvent: {}
+[1.904983] (-) TimerEvent: {}
+[2.005268] (-) TimerEvent: {}
+[2.105584] (-) TimerEvent: {}
+[2.205906] (-) TimerEvent: {}
+[2.306239] (-) TimerEvent: {}
+[2.406556] (-) TimerEvent: {}
+[2.506909] (-) TimerEvent: {}
+[2.607203] (-) TimerEvent: {}
+[2.707552] (-) TimerEvent: {}
+[2.807882] (-) TimerEvent: {}
+[2.908181] (-) TimerEvent: {}
+[3.008515] (-) TimerEvent: {}
+[3.108815] (-) TimerEvent: {}
+[3.209128] (-) TimerEvent: {}
+[3.309444] (-) TimerEvent: {}
+[3.409751] (-) TimerEvent: {}
+[3.510076] (-) TimerEvent: {}
+[3.610382] (-) TimerEvent: {}
+[3.710730] (-) TimerEvent: {}
+[3.811062] (-) TimerEvent: {}
+[3.911381] (-) TimerEvent: {}
+[4.011708] (-) TimerEvent: {}
+[4.112010] (-) TimerEvent: {}
+[4.212365] (-) TimerEvent: {}
+[4.312698] (-) TimerEvent: {}
+[4.413017] (-) TimerEvent: {}
+[4.513317] (-) TimerEvent: {}
+[4.613634] (-) TimerEvent: {}
+[4.714010] (-) TimerEvent: {}
+[4.814313] (-) TimerEvent: {}
+[4.914606] (-) TimerEvent: {}
+[5.014930] (-) TimerEvent: {}
+[5.115223] (-) TimerEvent: {}
+[5.215521] (-) TimerEvent: {}
+[5.315837] (-) TimerEvent: {}
+[5.416068] (-) TimerEvent: {}
+[5.516387] (-) TimerEvent: {}
+[5.616697] (-) TimerEvent: {}
+[5.717020] (-) TimerEvent: {}
+[5.817355] (-) TimerEvent: {}
+[5.917656] (-) TimerEvent: {}
+[6.017976] (-) TimerEvent: {}
+[6.118256] (-) TimerEvent: {}
+[6.218570] (-) TimerEvent: {}
+[6.318835] (-) TimerEvent: {}
+[6.419080] (-) TimerEvent: {}
+[6.519415] (-) TimerEvent: {}
+[6.619728] (-) TimerEvent: {}
+[6.720012] (-) TimerEvent: {}
+[6.728442] (Ubox) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable velocity_publisher\x1b[0m\n'}
+[6.820134] (-) TimerEvent: {}
+[6.920445] (-) TimerEvent: {}
+[6.998174] (Ubox) StdoutLine: {'line': b'[100%] Built target velocity_publisher\n'}
+[7.014161] (Ubox) CommandEnded: {'returncode': 0}
+[7.014833] (Ubox) JobProgress: {'identifier': 'Ubox', 'progress': 'install'}
+[7.020564] (-) TimerEvent: {}
+[7.028840] (Ubox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kkcmaestro/ros2_wsU/build/Ubox'], 'cwd': '/home/kkcmaestro/ros2_wsU/build/Ubox', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kkcmaestro', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kkcmaestro', 'OLDPWD': '/home/kkcmaestro', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4300', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kkcmaestro/ros2_wsU/install:/home/kkcmaestro/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kkcmaestro', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kkcmaestro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kkcmaestro-HP-Pavilion-Notebook:@/tmp/.ICE-unix/3947,unix/kkcmaestro-HP-Pavilion-Notebook:/tmp/.ICE-unix/3947', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/35940de4_8223_4a02_b284_7c0bb9e375cf', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.1015', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kkcmaestro/ros2_wsU/install/Ubox:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/home/kkcmaestro/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kkcmaestro/ros2_wsU/build/Ubox', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/kkcmaestro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kkcmaestro/ros2_ws/install/my_robot_controller2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kkcmaestro/ros2_wsU/install/Ubox:/home/kkcmaestro/ros2_ws/install/my_robot_controller:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy'}), 'shell': False}
+[7.040591] (Ubox) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.041111] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/lib/Ubox/cpp_exe\n'}
+[7.041700] (Ubox) StdoutLine: {'line': b'-- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/lib/Ubox/velocity_publisher\n'}
+[7.044015] (Ubox) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kkcmaestro/ros2_wsU/install/Ubox/lib/Ubox/velocity_publisher" to ""\n'}
+[7.044285] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/ament_index/resource_index/package_run_dependencies/Ubox\n'}
+[7.044583] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/ament_index/resource_index/parent_prefix_path/Ubox\n'}
+[7.044776] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/ament_prefix_path.sh\n'}
+[7.044961] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/ament_prefix_path.dsv\n'}
+[7.045354] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/path.sh\n'}
+[7.045534] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/path.dsv\n'}
+[7.045688] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.bash\n'}
+[7.045841] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.sh\n'}
+[7.046005] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.zsh\n'}
+[7.046163] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.dsv\n'}
+[7.046312] (Ubox) StdoutLine: {'line': b'-- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/package.dsv\n'}
+[7.046462] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/ament_index/resource_index/packages/Ubox\n'}
+[7.046612] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/cmake/UboxConfig.cmake\n'}
+[7.046763] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/cmake/UboxConfig-version.cmake\n'}
+[7.047000] (Ubox) StdoutLine: {'line': b'-- Up-to-date: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/package.xml\n'}
+[7.047934] (Ubox) CommandEnded: {'returncode': 0}
+[7.068095] (Ubox) JobEnded: {'identifier': 'Ubox', 'rc': 0}
+[7.069086] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[0.099s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4
+[0.158s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.495s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.536s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.550s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.684s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.686s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.781s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.876s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.876s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.035s] WARNING: Package name "Ubox" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.073s] -- Configuring done (0.9s)
+[1.769s] -- Generating done (0.0s)
+[1.777s] -- Build files have been written to: /home/kkcmaestro/ros2_wsU/build/Ubox
+[1.862s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/ScriptARos.cpp.o[0m
+[2.372s] [01m[K/home/kkcmaestro/ros2_wsU/src/Ubox/src/ScriptARos.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[2.372s]     2 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[2.372s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.373s] compilation terminated.
+[2.376s] gmake[2]: *** [CMakeFiles/cpp_exe.dir/build.make:76: CMakeFiles/cpp_exe.dir/src/ScriptARos.cpp.o] Error 1
+[2.377s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_exe.dir/all] Error 2
+[2.377s] gmake: *** [Makefile:146: all] Error 2
+[2.380s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4

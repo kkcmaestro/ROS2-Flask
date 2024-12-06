@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_exe.dir/src/ScriptARos.cpp.o[0m
+[0.514s] [01m[K/home/kkcmaestro/ros2_wsU/src/Ubox/src/ScriptARos.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.514s]     4 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.514s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.514s] compilation terminated.
+[0.518s] gmake[2]: *** [CMakeFiles/cpp_exe.dir/build.make:76: CMakeFiles/cpp_exe.dir/src/ScriptARos.cpp.o] Error 1
+[0.518s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_exe.dir/all] Error 2
+[0.519s] gmake: *** [Makefile:146: all] Error 2
+[0.522s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4

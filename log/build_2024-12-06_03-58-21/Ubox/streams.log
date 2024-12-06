@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4
+[0.056s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.364s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.405s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.421s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.438s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.458s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.556s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.558s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.656s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.754s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.754s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.907s] WARNING: Package name "Ubox" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.931s] -- Configuring done (0.9s)
+[0.953s] -- Generating done (0.0s)
+[0.961s] -- Build files have been written to: /home/kkcmaestro/ros2_wsU/build/Ubox
+[1.012s] [ 25%] [32mBuilding CXX object CMakeFiles/velocity_publisher.dir/src/velocity_publisher.cpp.o[0m
+[1.024s] [ 75%] Built target cpp_exe
+[1.043s] [100%] [32m[1mLinking CXX executable velocity_publisher[0m
+[1.163s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[1.163s] (.text+0x1b): undefined reference to `main'
+[1.167s] collect2: error: ld returned 1 exit status
+[1.169s] gmake[2]: *** [CMakeFiles/velocity_publisher.dir/build.make:178: velocity_publisher] Error 1
+[1.169s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/velocity_publisher.dir/all] Error 2
+[1.170s] gmake: *** [Makefile:146: all] Error 2
+[1.173s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4

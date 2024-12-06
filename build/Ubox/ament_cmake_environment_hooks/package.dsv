@@ -1,0 +1,4 @@
+source;share/Ubox/local_setup.bash
+source;share/Ubox/local_setup.dsv
+source;share/Ubox/local_setup.sh
+source;share/Ubox/local_setup.zsh

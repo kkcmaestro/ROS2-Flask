@@ -1,0 +1,52 @@
+[0.098s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kkcmaestro/ros2_wsU/src/Ubox -DCMAKE_INSTALL_PREFIX=/home/kkcmaestro/ros2_wsU/install/Ubox
+[2.302s] -- The C compiler identification is GNU 13.2.0
+[2.948s] -- The CXX compiler identification is GNU 13.2.0
+[3.060s] -- Detecting C compiler ABI info
+[3.363s] -- Detecting C compiler ABI info - done
+[3.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.396s] -- Detecting C compile features
+[3.415s] -- Detecting C compile features - done
+[3.505s] -- Detecting CXX compiler ABI info
+[3.685s] -- Detecting CXX compiler ABI info - done
+[3.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.699s] -- Detecting CXX compile features
+[3.700s] -- Detecting CXX compile features - done
+[3.762s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.081s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.548s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.859s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.935s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.823s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.842s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.441s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.513s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.549s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.683s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[6.685s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[6.840s] WARNING: Package name "Ubox" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[6.919s] -- Configuring done (6.7s)
+[6.941s] -- Generating done (0.0s)
+[6.977s] -- Build files have been written to: /home/kkcmaestro/ros2_wsU/build/Ubox
+[6.995s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kkcmaestro/ros2_wsU/src/Ubox -DCMAKE_INSTALL_PREFIX=/home/kkcmaestro/ros2_wsU/install/Ubox
+[6.998s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4
+[7.069s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kkcmaestro/ros2_wsU/build/Ubox -- -j4 -l4
+[7.083s] Invoking command in '/home/kkcmaestro/ros2_wsU/build/Ubox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kkcmaestro/ros2_wsU/build/Ubox
+[7.095s] -- Install configuration: ""
+[7.095s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/ament_index/resource_index/package_run_dependencies/Ubox
+[7.096s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/ament_index/resource_index/parent_prefix_path/Ubox
+[7.096s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/ament_prefix_path.sh
+[7.096s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/ament_prefix_path.dsv
+[7.096s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/path.sh
+[7.097s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/environment/path.dsv
+[7.097s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.bash
+[7.098s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.sh
+[7.098s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.zsh
+[7.098s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/local_setup.dsv
+[7.098s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/package.dsv
+[7.099s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/ament_index/resource_index/packages/Ubox
+[7.099s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/cmake/UboxConfig.cmake
+[7.099s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/cmake/UboxConfig-version.cmake
+[7.099s] -- Installing: /home/kkcmaestro/ros2_wsU/install/Ubox/share/Ubox/package.xml
+[7.102s] Invoked command in '/home/kkcmaestro/ros2_wsU/build/Ubox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkcmaestro/ros2_ws/install/my_robot_controller2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kkcmaestro/ros2_wsU/build/Ubox
